@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no,  height=device-height">
+<title>Formations Asie Pacifique</title>
+<link rel="stylesheet" type="text/css" href="jm/jquery.mobile.theme-1.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="jm/jquery.mobile-1.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
+
+</head>
+
+<body >
+<div  id="mention_legal" data-theme="a">
+	<h4>Mention légale</h4><p>Ce site est édité par l'Agence universitaire de la Francophonie (AUF), personne morale constituée en vertu de la Loi concernant l'Agence universitaire de la Francophonie (Québec, chapitre A-7.2, entrée en vigueur le 1er novembre 2001). Le contenu du site Web de l’Agence universitaire de la Francophonie (AUF) est partagé à titre d’information générale uniquement. L’AUF et/ou ses représentants ne peuvent en aucun cas être tenus responsables relativement à quelque préjudice, inconvénient et/ou dommage lié directement ou indirectement à la lecture, à la consultation et/ou à l’utilisation du présent site Web et/ou de son contenu. L’AUF et/ou ses représentants ne peuvent en aucun cas être tenus responsables relativement au contenu des sites Web externes pour lesquels et vers lesquels elle offre des liens. Toute commercialisation, directe ou indirecte, de quelque texte contenu dans le présent site Web est strictement interdite. Le présent site Web, et son utilisation par toute personne sont soumis aux lois du Québec et du Canada. Pour tout litige, les juridictions compétentes sont celles de Montréal (Canada-Québec). Toute communication transmise à l'AUF par les visiteurs du présent site est traitée avec la plus stricte confidentialité.
+		<br>© AUF - Tous droits réservés.</p>
+	</div>	
+<div data-role="page" id="index"  >
+
+  <div data-role="header"  data-theme="a" data-position="fixed">
+    <h1 class="entete"> Formations Asie Pacifique</h1> 
+  </div>
+  <div role="main" class="ui-content" align="center" >
+  
+  <img src="jm/images/ajax-loader.gif" width="46" height="46">
+  
+  </div>
+ <div data-role="footer" data-position="fixed" data-theme="a" data-id="foot">
+    <h4>© Copyright 2013 AUF - CUF</h4>
+  </div>
+  </div>
+	<div data-role="page" id="home"  data-dom-cache="true"  >
+	  <div data-role="header"  data-theme="a" data-position="fixed" >
+	   
+	  </div>
+	  <div data-role="main" class="ui-content" id="formulaire">
+			
+			<h4 class="entete">Chercher une formation  </h4>
+			<div id="form"></div> 
+		   
+		<br>
+			<div align="center" class="ui-block-a center" >
+			 <div class="ui-block-a"> <button   id="rechercher_formation" data-theme="l" style="background-color:#7bb43b;color:black;" class="ui-btn  ui-btn-inline">Rechercher</button></div> <div id="loading" class="ui-block-b " style="padding:8px; display:none;"><img src="jm/images/ajax-loader.gif" width="46" height="46"></div></div>
+	  
+			</div>
+	  <div data-role="footer" data-position="fixed" data-theme="a" data-id="foot">
+		<h5>Cartographie des formations</h5>
+	  </div>
+	  
+	</div>
+ 
+   
+<div data-role="page" id="resultat" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="a">
+    <h1 class="entete"> Résultat de la recherche</h1><a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>
+  </div>
+  <div data-role="content">
+  	<div data-role="collapsibleset" data-theme="a" data-content-theme="a" id="resultat_recherche">
+    
+	</div>
+ </div>
+   <div data-role="footer" data-position="fixed" data-theme="a" data-id="foot">
+    <h4>Cartographie des formations</h4>
+  </div>
+</div>
+<div data-role="page" class="" data-add-back-btn="true"  id="details" >
+	
+	<div id="headerdetails" data-theme="a" data-role="header" data-position="fixed"> <h1 class="entete"> Détails de la formation</h1>  <a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>   </div>
+	<div role="main" class="ui-content"  id="contenusite">
+    	
+    </div>
+	<div data-role="footer" data-theme="b" data-position="fixed" data-id="foot">
+    	<div data-role="navbar" data-iconpos="left">
+            <ul>
+                <li><a href="#" data-icon="grid">pdf 1</a></li>
+                <li><a href="#" data-icon="star" class="ui-btn-active">pdf 2 </a></li>
+                <li><a href="#" data-icon="gear">pdf 3 </a></li>
+                <li><a href="#" data-icon="gear">pdf 4</a></li>
+                <li><a href="#" data-icon="gear">pdf 5</a></li>
+            </ul>
+   		 </div><!-- /navbar -->
+    
+	</div>
+    
+    </div>
+    <div data-role="page" class="" data-add-back-btn="true"  id="pdfview" >
+	
+	<div id="headerpdfview" data-theme="b" data-role="header" data-position="fixed"> <h1 class="entete"> Lecture du PDG</h1>  <a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>   </div>
+	<div role="main" class="ui-content"  id="contenupdfview">
+    	<iframe src="http://docs.google.com/gview?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" style="width:400px; height:800px;" frameborder="0"></iframe>
+    </div>
+	<div data-role="footer" data-theme="b" data-position="fixed" data-id="foot">
+    	
+    
+	</div>
+    
+    </div>
+    
+<script src="jm/jquery-1.8.0.min.js"></script>
+<script src="jm/jquery.mobile-1.4.2.min.js"></script>
+<script src="jm/function.js"></script>
+<script language="javascript">
+$.mobile.page.prototype.options.addBackBtn = "True";
+$.mobile.page.prototype.options.backBtnText = "Retour";
+$.mobile.transitionFallbacks.slideout = "none";
+$.mobile.defaultPageTransition ="none";
+
+</script>
+
+
+</body>
+</html>

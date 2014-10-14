@@ -1,0 +1,53 @@
+/*body {
+    background: url(../carte.jpg);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}*/
+#index{
+background: url(../demarrage_portrait.jpg);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}*/
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1;
+}
+#header {
+	position:fixed;
+	top:0; width:100%;height:40px;
+}
+
+.logo {
+	background:#ababab url(../images/mbbg-head.png)no-repeat right top;
+	height:40px;
+	background-position: 88% ; 
+	
+}
+#mention_legal p{font-size:10px; text-align:justify;z-index:500000;}
+.ui-page > h1,.ui-page h1.entete{
+	
+	padding:6px; white-space:normal;
+	margin: 0px;
+}
+h4.entete{
+	
+	padding:6px; white-space:normal;
+	margin: 0px;
+}
+
+#menuright a {background-color:#fff;color:#333;}
+#resultat_recherche .ui-listview li p strong {color:#00C;}
+.ui-listview li h5.white-space ,.ui-listview li.first {
+ white-space: normal;
+}
+#formulaire select option {white-space: normal;}
