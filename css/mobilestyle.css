@@ -6,12 +6,22 @@
     background-size:100% 100%;
 }*/
 #index{
-background: url(../demarrage_portrait.jpg);
+background: url(../demarrage_portrait.png);
     background-repeat:repeat-y;
     background-position:center center;
     background-attachment:scroll;
     background-size:100% 100%;
 }
+
+.ios-detected  {
+height:25px;
+display:block;
+}
+.ios-detected .ui-header .ui-btn {
+top:30px !important;
+position: relative !important;
+}
+
 .ui-page {
     background: transparent;
 }
@@ -24,14 +34,17 @@ background: url(../demarrage_portrait.jpg);
 }
 #header {
 	position:fixed;
-	top:0; width:100%;height:40px;
+	top:0; width:100%;height:100px;
 }
 
 .logo {
 	background:#ababab url(../images/mbbg-head.png)no-repeat right top;
 	height:40px;
 	background-position: 88% ; 
-	
+		
+}
+.paddingleft{
+	padding-left:33px;
 }
 #mention_legal p{font-size:10px; text-align:justify;z-index:500000;}
 .ui-page > h1,.ui-page h1.entete{
@@ -51,3 +64,4 @@ h4.entete{
  white-space: normal;
 }
 #formulaire select option {white-space: normal;}
+

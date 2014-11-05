@@ -13,8 +13,8 @@
 <author href="www.auf.org" email="gorbiromaric@gmail.com">
 Bureau Asie Pacifique de l'Agence Universitaire de la Francophonie
 </author>
-<icon src="icon.png" />
-<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="carto_logo.png" />
+<icon src="carto_logo.png" gap:platform="android" gap:qualifier="ldpi" />
 <gap:splash src="demarrage_portrait.png" />
 <gap:splash src="demarrage_portrait.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
 <gap:splash src="demarrage_paysage.png" gap:platform="android" gap:qualifier="land-xxhdpi" />

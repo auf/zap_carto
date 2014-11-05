@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="jm/jquery.mobile-1.4.2.min.css">
 <link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
 
+
+
 </head>
 
 <body >
@@ -26,11 +28,11 @@
   
   </div>
  <div data-role="footer" data-position="fixed" data-theme="a" data-id="foot">
-    <h4>© Copyright 2013 AUF - CUF</h4>
+    <h4>© Copyright 2014 AUF </h4>
   </div>
   </div>
 	<div data-role="page" id="home"  data-dom-cache="true"  >
-	  <div data-role="header"  data-theme="a" data-position="fixed" >
+	  <div data-role="header" id="headerindex" data-theme="a" data-position="fixed" >
 	   
 	  </div>
 	  <div data-role="main" class="ui-content" id="formulaire">
@@ -43,6 +45,9 @@
 			 <div class="ui-block-a"> <button   id="rechercher_formation" data-theme="l" style="background-color:#7bb43b;color:black;" class="ui-btn  ui-btn-inline">Rechercher</button></div> <div id="loading" class="ui-block-b " style="padding:8px; display:none;"><img src="jm/images/ajax-loader.gif" width="46" height="46"></div></div>
 	  
 			</div>
+			
+		
+			
 	  <div data-role="footer" data-position="fixed" data-theme="a" data-id="foot">
 		<h5>Cartographie des formations</h5>
 	  </div>
@@ -51,7 +56,7 @@
  
    
 <div data-role="page" id="resultat" data-add-back-btn="true">
-  <div data-role="header" data-position="fixed" data-theme="a">
+  <div data-role="header" data-position="fixed" data-theme="a" class="headerpage">
     <h1 class="entete"> Résultat de la recherche</h1><a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>
   </div>
   <div data-role="content">
@@ -65,10 +70,12 @@
 </div>
 <div data-role="page" class="" data-add-back-btn="true"  id="details" >
 	
-	<div id="headerdetails" data-theme="a" data-role="header" data-position="fixed"> <h1 class="entete"> Détails de la formation</h1>  <a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>   </div>
+	<div id="headerdetails" data-theme="a" data-role="header" data-position="fixed" class="headerpage"> <h1 class="entete"> Détails de la formation</h1>  <a id="btn-back" data-role="button" data-rel="back" data-transition="slide" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left ui-btn ui-icon-arrow-l  ui-corner-all ui-btn-icon-notext"  > Retour </a>   </div>
 	<div role="main" class="ui-content"  id="contenusite">
     	
     </div>
+    
+    <!--
 	<div data-role="footer" data-theme="b" data-position="fixed" data-id="foot">
     	<div data-role="navbar" data-iconpos="left">
             <ul>
@@ -78,9 +85,9 @@
                 <li><a href="#" data-icon="gear">pdf 4</a></li>
                 <li><a href="#" data-icon="gear">pdf 5</a></li>
             </ul>
-   		 </div><!-- /navbar -->
+   		 </div><!-- /navbar 
     
-	</div>
+	</div>-->
     
     </div>
     <div data-role="page" class="" data-add-back-btn="true"  id="pdfview" >
