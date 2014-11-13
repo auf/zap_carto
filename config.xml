@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.auf.formations"
+    id        = "org.auf.formations"
     version   = "1.0.5">
 
 <name>Formations AP</name>
@@ -10,7 +10,7 @@
 « L'Espace formations francophones en Asie-Pacifique » est un répertoire des cursus universitaires proposés en français ou partiellement en français par les établissements membres de l'AUF dans la région Asie-Pacifique.
 </description>
 
-<author href="www.auf.org" email="gorbiromaric@gmail.com">
+<author href="www.auf.org" email="technique@vn.auf.org">
 Bureau Asie Pacifique de l'Agence Universitaire de la Francophonie
 </author>
 <icon src="carto_logo.png" />
@@ -19,6 +19,6 @@ Bureau Asie Pacifique de l'Agence Universitaire de la Francophonie
 <gap:splash src="demarrage_portrait.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
 <gap:splash src="demarrage_paysage.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
 <gap:splash src="demarrage_paysage.jpg" gap:platform="winphone" />
-<gap:splash src="demarrage_portrait_iphone.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="demarrage_portrait.png" gap:platform="ios" />
 <access origin="*" />
 </widget>
