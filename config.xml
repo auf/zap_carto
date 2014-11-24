@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "org.auf.formations"
-    version   = "1.0.5">
+    version   = "1.0.6">
 
 <name>Formations AP</name>
 
@@ -13,12 +13,39 @@
 <author href="www.auf.org" email="technique@vn.auf.org">
 Bureau Asie Pacifique de l'Agence Universitaire de la Francophonie
 </author>
+
+<icon src="Icon-57.png" width="57" height="57" gap:platform="ios" />
+<icon src="Icon-72.png" width="72" height="72" gap:platform="ios" />
+<icon src="Icon-120.png" width="120" height="120" gap:platform="ios" />
+<icon src="Icon-76.png" width="76" height="76" gap:platform="ios" />
+<icon src="Icon-152.png" width="152" height="152" gap:platform="ios" />
+
+<gap:splash src="demarrage_portrait.png" gap:platform="ios" />
+
+<!-- iPhone and iPod touch -->
+<gap:splash src="Default.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="Default@2x.png" gap:platform="ios" width="640" height="960" />
+
+<!-- iPhone 5 / iPod Touch (5th Generation) -->
+<gap:splash src="Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+
+<!-- iPad -->
+<gap:splash src="ipad-768x1024.png" gap:platform="ios" width="768" height="1024" />
+
 <icon src="carto_logo.png" />
 <icon src="carto_logo.png" gap:platform="android" gap:qualifier="ldpi" />
 <gap:splash src="demarrage_portrait.png" />
 <gap:splash src="demarrage_portrait.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
 <gap:splash src="demarrage_paysage.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
-<gap:splash src="demarrage_paysage.jpg" gap:platform="winphone" />
-<gap:splash src="demarrage_portrait.png" gap:platform="ios" />
 <access origin="*" />
+
+
+<platform name="ios">
+<!-- iPad -->
+     <icon src="Icon-72.png" width="72" height="72" />
+<!-- iphone -->
+     <icon src="Icon-57.png" width="57" height="57" />
+
+</platform>
+
 </widget>
