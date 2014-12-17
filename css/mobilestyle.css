@@ -58,6 +58,12 @@ h4.entete{
 	margin: 0px;
 }
 
+h3.entete{
+	
+	padding:6px; white-space:normal;
+	margin: 0px;
+}
+
 #menuright a {background-color:#fff;color:#333;}
 #resultat_recherche .ui-listview li p strong {color:#00C;}
 .ui-listview li h5.white-space ,.ui-listview li.first {
