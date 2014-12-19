@@ -26,6 +26,7 @@ $(function() {
     height : $(window).height()
 	};
 	loaddata(pays_url,'code', 'nom','Pays');
+	$('#loading').hide();
 	$(document).on('tap','#resultat_recherche ul li.formation', function() {
      
 	      
